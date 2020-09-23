@@ -2,7 +2,14 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "../../Button";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+  FaMapMarkedAlt,
+} from "react-icons/fa";
 import { MdFingerprint } from "react-icons/md";
 
 function Footer() {
@@ -59,8 +66,10 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <MdFingerprint className="navbar-icon" />
-              LAVISH
+              {/* <MdFingerprint className="navbar-icon" />
+              LAVISH */}
+              <FaMapMarkedAlt className="navbar-icon" />
+              ROADMAP
             </Link>
           </div>
           <small className="website-rights">LAVISH © 2020</small>

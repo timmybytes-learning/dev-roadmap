@@ -5,6 +5,7 @@ import { MdFingerprint } from "react-icons/md";
 import { Button } from "./Button";
 import "./Navbar.css";
 import { IconContext } from "react-icons/lib";
+import { FaMapMarkedAlt } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -33,8 +34,11 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <MdFingerprint className="navbar-icon" />
-              LAVISH
+              {/* <MdFingerprint className="navbar-icon" />
+              LAVISH */}
+              {/* Replace Logo/Icon */}
+              <FaMapMarkedAlt className="navbar-icon" />
+              ROADMAP
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
