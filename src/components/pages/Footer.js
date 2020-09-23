@@ -1,6 +1,5 @@
 import React from "react";
-import "./Footer.css";
-import { Button } from "../../Button";
+import { Button } from "../Button";
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
@@ -10,9 +9,10 @@ import {
   FaLinkedin,
   FaMapMarkedAlt,
 } from "react-icons/fa";
-import { MdFingerprint } from "react-icons/md";
 
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <div className="footer-container">
       <section className="footer-subscription">
@@ -72,7 +72,7 @@ function Footer() {
               ROADMAP
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">ROADMAP © {year}</small>
           <div className="social-icons">
             <Link className="social-icon-link" to="/" target="_blank" aria-label="Facebook">
               <FaFacebook />

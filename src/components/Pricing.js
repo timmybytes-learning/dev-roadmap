@@ -5,7 +5,6 @@ import { Button } from "./Button";
 import { BsXDiamondFill } from "react-icons/bs";
 import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
-import "./Pricing.css";
 
 function Pricing() {
   return (
@@ -46,7 +45,7 @@ function Pricing() {
                     <li>3.5% Cash Back</li>
                     <li>$100,000 Limit</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor="blue">
+                  <Button buttonSize="btn--wide" buttonColor="primary">
                     Choose Plan
                   </Button>
                 </div>
