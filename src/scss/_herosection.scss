@@ -1,5 +1,5 @@
 .home__hero-section {
-  color: #fff;
+  color: $ColorLight;
   padding: 160px 0;
 }
 
@@ -50,11 +50,11 @@
 }
 
 .dark {
-  color: #1c2237;
+  color: $ColorBlueDark;
 }
 
 .darkBg {
-  background-color: #1c2237;
+  background-color: $ColorBlueDark;
 }
 
 .home__hero-subtitle {

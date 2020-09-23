@@ -32,10 +32,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              {/* <MdFingerprint className="navbar-icon" />
-              LAVISH */}
-              {/* Replace Logo/Icon */}
-              <FaMapMarkedAlt className="navbar-icon" />
+              <FaMapMarkedAlt className="navbar-icon" color="#f22056" />
               ROADMAP
             </Link>
             <div className="menu-icon" onClick={handleClick}>
