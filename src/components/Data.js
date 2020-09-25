@@ -58,10 +58,10 @@ export const homeObjFive = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "FRONT-END DEVELOPMENT",
-  headline: "Learn the fundamentals of web development, and start building.",
+  topLine: "WEB DEVELOPMENT",
+  headline: "Learn the fundamentals of the front-end.",
   description:
-    "Study HTML, CSS, JavaScript, frameworks and libraries, Accessibility best practices, and more to learn the ins and outs of modern web development.",
+    "Study HTML, CSS, JavaScript, frameworks and libraries, accessible best practices, and more.",
   buttonLabel: "Get Started",
   imgStart: "end",
   img: "images/desk-illustration.svg",
