@@ -8,7 +8,7 @@ export const homeObjOne = {
     "Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged any fees",
   buttonLabel: "Get Started",
   imgStart: "",
-  img: "images/svg-1.svg",
+  img: "images/guy-with-glasses.svg",
   alt: "Credit Card",
 };
 
@@ -22,7 +22,7 @@ export const homeObjTwo = {
     "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   buttonLabel: "Learn More",
   imgStart: "",
-  img: "images/svg-5.svg",
+  img: "images/console.svg",
   alt: "Vault",
 };
 
@@ -36,7 +36,7 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: "images/svg-7.svg",
+  img: "images/guy-with-glasses.svg",
   alt: "Vault",
 };
 
@@ -50,7 +50,7 @@ export const homeObjFour = {
     "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: "images/svg-8.svg",
+  img: "images/web-check.svg",
   alt: "Vault",
 };
 
@@ -63,7 +63,7 @@ export const homeObjFive = {
   description:
     "Study HTML, CSS, JavaScript, frameworks and libraries, Accessibility best practices, and more to learn the ins and outs of modern web development.",
   buttonLabel: "Get Started",
-  imgStart: "",
-  img: "images/online-education.svg",
-  alt: "",
+  imgStart: "end",
+  img: "images/desk-illustration.svg",
+  alt: "Computer on Desk",
 };

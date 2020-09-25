@@ -7,10 +7,10 @@ function Home() {
   return (
     <>
       <HeroSection {...homeObjFive} />
-      <HeroSection {...homeObjThree} />
+      {/* <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjTwo} />
       <Pricing />
-      <HeroSection {...homeObjFour} />
+      <HeroSection {...homeObjFour} /> */}
     </>
   );
 }

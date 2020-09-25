@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFire } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJsSquare } from "react-icons/fa";
 import { Button } from "./Button";
-import { BsXDiamondFill } from "react-icons/bs";
-import { GiCrystalize } from "react-icons/gi";
+import { IoLogoJavasript } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
 
 function Pricing() {
@@ -12,16 +11,16 @@ function Pricing() {
       <div>
         <div className="pricing__section">
           <div className="pricing__wrapper">
-            <h1 className="pricing__heading">Pricing</h1>
+            <h1 className="pricing__heading">Core Languages</h1>
             <div className="pricing__container">
               <Link to="/sign-up" className="pricing__container-card">
                 <div className="pricing__container-cardInfo">
                   <div className="icon">
-                    <FaFire />
+                    <FaHtml5 />
                   </div>
                   <h3>Start</h3>
-                  <h4>$8.99</h4>
-                  <p>per month</p>
+                  <h4>HTML</h4>
+                  <p>{"<Hyper Text Markup Language>"}</p>
                   <ul className="pricing__container-features">
                     <li>100 Transactions</li>
                     <li>2% Cash Back</li>
@@ -35,11 +34,11 @@ function Pricing() {
               <Link to="/sign-up" className="pricing__container-card">
                 <div className="pricing__container-cardInfo">
                   <div className="icon">
-                    <BsXDiamondFill />
+                    <FaCss3 />
                   </div>
-                  <h3>Gold</h3>
-                  <h4>$29.99</h4>
-                  <p>per month</p>
+                  <h3>Start</h3>
+                  <h4>CSS</h4>
+                  <p>{"{Cascading Style Sheets}"}</p>
                   <ul className="pricing__container-features">
                     <li>1000 Transactions</li>
                     <li>3.5% Cash Back</li>
@@ -53,11 +52,11 @@ function Pricing() {
               <Link to="/sign-up" className="pricing__container-card">
                 <div className="pricing__container-cardInfo">
                   <div className="icon">
-                    <GiCrystalize />
+                    <FaJsSquare />
                   </div>
-                  <h3>Diamond</h3>
-                  <h4>$99.99</h4>
-                  <p>per month</p>
+                  <h3>Start</h3>
+                  <h4>JavaScript</h4>
+                  <p></p>
                   <ul className="pricing__container-features">
                     <li>Unlimited Transactions</li>
                     <li>5% Cash Back</li>

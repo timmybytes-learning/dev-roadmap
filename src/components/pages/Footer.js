@@ -72,7 +72,7 @@ function Footer() {
               ROADMAP
             </Link>
           </div>
-          <small className="website-rights">ROADMAP © {year}</small>
+          <small className="website-rights">roadmap © {year}</small>
           <div className="social-icons">
             <Link className="social-icon-link" to="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
